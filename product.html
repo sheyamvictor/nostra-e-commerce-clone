@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+
+    <!--link with css-->
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+    <!--google font awesome link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Poppins&display=swap"
+        rel="stylesheet">
+
+    <!--cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--NavBar-->
+
+    <nav class="navbar">
+        <h1>NOSTRA</h1>
+
+        <div class="navbarlinks">
+            <p class="navbarlink"><a href="index.html">Home</a></p>
+            <p class="navbarlink"><a href="index.html">New arrival</a></p>
+            <p class="navbarlink"><a href="index.html">Most wanted</a></p>
+            <p class="navbarlink"><a href="product.html">Product</a></p>
+            <p class="navbarlink"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="menubar" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--sidenavbar-->
+
+    <div class="sidenavbar">
+        <p style="text-align: right" ; onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="sidenavbarlinks">
+            <p class="sidenavbarlink"><a href="index.html">Home</a></p>
+            <p class="sidenavbarlink"><a href="index.html">New arrival</a></p>
+            <p class="sidenavbarlink"><a href="index.html">Most wanted</a></p>
+            <p class="sidenavbarlink"><a href="product.html">Product</a></p>
+            <p class="sidenavbarlink"><a href="contact.html">Contact</a></p>
+        </div>
+
+    </div>
+
+    <!--input bar-->
+
+    <div class="Product-section">
+        <from class="products-search">
+            <input type="text" id="search" placeholder="search ur favourite">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </from>
+
+        <div class="Products" id="product">
+
+            <div class="product-box">
+                <img src="images/img1.png">
+                <h3>Yellow retro model </h3>
+                <p>$100</p>
+
+            </div>
+
+            <div class="product-box">
+                <img src="images/img2.png">
+                <h3>Black mafia trend </h3>
+                <p>$500</p>
+
+            </div>
+
+            <div class="product-box">
+                <img src="images/img3 (3).png">
+                <h3>classic organge </h3>
+                <p>$300</p>
+
+            </div>
+
+            <div class="product-box">
+                <img src="images/img 4.png">
+                <h3>Trendy cool </h3>
+                <p>$250</p>
+
+            </div>
+
+            <div class="product-box">
+                <img src="images/img5.png">
+                <h3>Greenish model</h3>
+                <p>$450</p>
+
+            </div>
+
+            <div class="product-box">
+                <img src="images/img6.png">
+                <h3>black t-shirts </h3>
+                <p>$150</p>
+
+            </div>
+
+            <div class="product-box">
+                <img src="images/img7.png">
+                <h3>cool collections </h3>
+                <p>$250</p>
+
+            </div>
+
+            <div class="product-box">
+                <img src="images/img8.png">
+                <h3>shirts and pants </h3>
+                <p>$300</p>
+
+            </div>
+
+            <div class="product-box">
+                <img src="images/img9.png">
+                <h3>valentine pinky dress</h3>
+                <p>$300</p>
+
+            </div>
+
+            <div class="product-box">
+                <img src="images/img10.png">
+                <h3> classic shirts </h3>
+                <p>$250</p>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!--footer-->
+
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-heading1">
+<h2 class="head-text">Nostra</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, sed.</p>
+<div class="footer-icon">
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-facebook"></i>
+
+
+</div>
+
+        </div>
+
+    </div>
+<p>@ 2024 Nostra</p>
+</div>
+
+<script src="product.js"></script>
+</body>
+
+</html>

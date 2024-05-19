@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+
+    <!--link with css-->
+    <link rel="stylesheet" href="style.css">
+
+  
+
+
+    <!--google font awesome link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Poppins&display=swap" rel="stylesheet">
+
+    <!--cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+<!--NavBar-->
+
+<nav class="navbar">
+    <h1>NOSTRA</h1>
+
+    <div class="navbarlinks">
+        <p class="navbarlink"><a href="">Home</a></p>
+        <p class="navbarlink"><a href="">New arrival</a></p>
+        <p class="navbarlink"><a href="">Most wanted</a></p>
+        <p class="navbarlink"><a href="">Product</a></p>
+        <p class="navbarlink"><a href="">Contact</a></p>
+    </div>
+
+<div class="menubar"  onclick="shownavbar()">
+    <i class="fa-solid fa-bars"></i>
+</div>
+</nav>
+
+<!--sidenavbar-->
+
+<div class="sidenavbar">
+<p style="text-align: right";  onclick="closenavbar()">
+    <i class="fa-solid fa-xmark"></i>
+</p>
+
+<div class="sidenavbarlinks">
+    <p class="sidenavbarlink"><a href="">Home</a></p>
+    <p class="sidenavbarlink"><a href="">New arrival</a></p>
+    <p class="sidenavbarlink"><a href="">Most wanted</a></p>
+    <p class="sidenavbarlink"><a href="">Product</a></p>
+    <p class="sidenavbarlink"><a href="">Contact</a></p>
+</div>
+
+</div>
+
+
+<!--header-->
+<div class="header">
+
+
+    <div class="slider-left-button">
+        <i id="slider-left-activate" class="fa-solid fa-angle-left"></i>
+    </div>
+
+    <div class="slider-content">
+        <h1>Level Up Your Style</h1>
+
+        <h2>With Our Stunning Collections</h2>
+
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div class="slider-images" >
+<img class="slider-image" src="images/image2.png" width="100%" alt="">
+
+<img class="slider-image" src="images/image1.png" width="100%" alt="">
+
+<img class="slider-image" src="images/image2.png" alt="">
+
+    </div>
+<div class="slider-right-button">
+    
+    <i id="slider-right-activate" class="fa-solid fa-angle-right"></i>
+</div>
+
+</div>
+
+
+<!--Brands-->
+
+<h2 style="margin-top: 5vw;padding: 10px;">Brands</h2>
+
+<div class="brand-img">
+    <img src="images/image1.png">
+</div>
+
+
+<div class="brands">
+    <div class="brands-items">
+        <img class="brand-icon" src="images/adidas.png">
+
+        <p>Adidas</p>
+    </div>
+        <div class="brands-items">
+            <img class="brand-icon" src="images/leaves.png">
+    
+            <p>Levis</p>
+
+        </div>
+            <div class="brands-items">
+                <img class="brand-icon" src="images/puma.png">
+        
+                <p>Be wear</p>
+
+                </div>
+
+                <div class="brands-items">
+                    <img class="brand-icon" src="images/simple.png">
+            
+                    <p>Simple</p>
+
+                </div>
+                    <div class="brands-items">
+                        <img class="brand-icon" src="images/twitch.png">
+                
+                        <p>Twitch</p>
+
+                        </div>
+    </div>
+</div>
+
+<!--service-->
+
+<div class="service">
+
+<div class="service-container1">
+    <div>
+        <h2>We Provide Best</h2>
+
+        <h3>Customer Experience</h3>
+    </div>
+
+    <div>
+        <p>|| We ensure that our Customer have the best shopping experience.</p>
+    </div>
+
+</div>
+
+<div class="service-container2">
+    <div>
+<i class="fa-regular fa-face-smile"></i>
+<h4>Customer Reviews</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum, alias quaerat iste vero sint ipsam perspiciatis cumque quo rerum, voluptatum id, voluptas in repellat. .</p>
+</div>
+
+<div>
+    <i class="fa-solid fa-pen-to-square"></i>
+    <h4>New Arrival every day</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum, alias quaerat iste vero sint ipsam perspiciatis cumque quo rerum, voluptatum id, voluptas in repellat. .</p>
+</div>
+
+    <div>
+        <i class="fa-solid fa-truck-fast"></i>        
+        <h4>Fast and Free shipping</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum, alias quaerat iste vero sint ipsam perspiciatis cumque quo rerum, voluptatum id, voluptas in repellat. .</p>
+    </div>
+
+
+</div>
+
+
+
+</div>
+
+<!--new arrival-->
+
+<div class="new">
+    <h2>New Arrival</h2>
+</div>
+
+<div class="newarrival">
+    <div class="newarrival-container">
+        <img src="images/img 1.png" alt="">
+        <div class="overlay"></div>
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div class="newarrival-container">
+        <img src="images/img 2.png" alt="">
+        <div class="overlay"></div>
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div class="newarrival-container">
+        <img src="images/img3.png" alt="">
+        <div class="overlay"></div>
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div class="newarrival-container">
+        <img src="images/img4.png" alt="">
+        <div class="overlay"></div>
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div class="newarrival-container">
+        <img src="images/img 1.6.png" alt="">
+        <div class="overlay"></div>
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div class="newarrival-container">
+        <img src="images/img 1.7.png" alt="">
+        <div class="overlay"></div>
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div class="newarrival-container">
+        <img src="images/img1.5.png" alt="">
+        <div class="overlay"></div>
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+</div>
+
+<!--most wanted-->
+<div class="most">
+    <h2>Most wanted</h2>
+
+<div class="most-wanted">
+    <div class="most-container">
+        <img src="images/img 1.1.png" alt="">
+        <p class="sale-overlay">sale</p>
+        <img class="like-button" src="images/heart.png" alt="">    </div>
+
+      
+
+    <div class="most-container">
+        <img src="images/img1.2.png" alt="">
+        <p class="sale-overlay">sale</p>
+        <img class="like-button" src="images/heart.png" alt="">    </div>
+
+    <div class="most-container">
+        <img src="images/img1.3.png" alt="">
+        <p class="sale-overlay">sale</p>
+        <img class="like-button" src="images/heart.png" alt="">    </div>
+
+    <div class="most-container">
+        <img src="images/img1.4.png" alt="">
+        <p class="sale-overlay">sale</p>
+        <img class="like-button" src="images/heart.png" alt="">    </div>
+
+    <div class="most-container">
+        <img src="images/img 1.7.png" alt="">
+        <p class="sale-overlay">sale</p>
+        <img class="like-button" src="images/heart.png" alt="">    </div>
+
+    <div class="most-container">
+        <img src="images/img1.5.png" alt="">
+        <p class="sale-overlay">sale</p>
+        <img class="like-button" src="images/heart.png" alt="">    </div>
+
+    <div class="most-container">
+        <img src="images/img 1.6.png" alt="">
+        <p class="sale-overlay">sale</p>
+        <img class="like-button" src="images/heart.png" alt="">    </div>
+</div>
+</div>
+
+<!--news-->
+<div class="news">
+    <h2>Join our news letter</h2>
+    <p>signup for our email newsletter to get exclusive discounts and updates and more </p>
+
+<div>
+    <input type="text" class="search">
+</div>
+
+<div>
+    <button>subscribe</button>
+</div>
+
+</div>
+
+<!--footer-->
+
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-heading1">
+<h2 class="head-text">Nostra</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, sed.</p>
+<div class="footer-icon">
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-facebook"></i>
+
+
+</div>
+
+        </div>
+
+    </div>
+<p>@ 2024 Nostra</p>
+</div>
+
+<script src="index.js"></script>
+</body>
+
+</html>

@@ -1,3 +1,18 @@
+var sidenav = document.querySelector(".sidenavbar")
+
+function shownavbar(){
+
+    sidenav.style.left = "0"
+}
+
+function closenavbar(){
+    sidenav.style.left = "-60%"
+}
+
+
+
+
+
 var productcontainer = document.getElementById("product")
 var search = document.getElementById("search")
 var productlist = productcontainer.querySelectorAll("div")
